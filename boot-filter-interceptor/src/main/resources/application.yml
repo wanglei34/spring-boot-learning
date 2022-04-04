@@ -1,0 +1,5 @@
+context:
+  listener:
+    classes: com.wl.boot.listener.MyListener3
+server:
+  port: 8081

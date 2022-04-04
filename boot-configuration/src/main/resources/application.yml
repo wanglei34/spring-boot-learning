@@ -1,0 +1,22 @@
+#family:
+#  family-name: "happy family"
+#  father:
+#    name: tom
+#    age: 30
+#    email: aaaa@sina.com
+#  mother:
+#    alias:
+#      - rose
+#      - alice
+#  child:
+#    name: jack
+#    age: 6
+#    friends:
+#      - hobby: football
+#        gender: male
+#      - hobby: sing
+#        gender: female
+
+#spring:
+#  profiles:
+#    active: test

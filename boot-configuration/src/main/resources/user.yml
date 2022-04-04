@@ -1,0 +1,7 @@
+user:
+  name: wanglei
+  age: 21
+  book:
+    name: 西游记
+    price: 20
+    createTime: 2022-03-13

@@ -1,0 +1,18 @@
+spring:
+  freemarker:
+    cache: false # \u7F13\u5B58\u914D\u7F6E \u5F00\u53D1\u9636\u6BB5\u5E94\u8BE5\u914D\u7F6E\u4E3Afalse \u56E0\u4E3A\u7ECF\u5E38\u4F1A\u6539
+    suffix: .ftl # \u6A21\u7248\u6587\u4EF6\u540E\u7F00\u540D
+    charset: UTF-8 # \u6587\u4EF6\u7F16\u7801
+    template-loader-path: classpath:/templates/
+
+  thymeleaf:
+    cache: false # \u542F\u7528\u7F13\u5B58:\u5EFA\u8BAE\u5F00\u53D1\u9636\u6BB5\u5173\u95ED\uFF0C\u751F\u4EA7\u9636\u6BB5\u5F00\u542F
+    check-template-location: true # \u68C0\u67E5\u6A21\u7248\u662F\u5426\u5B58\u5728
+    enabled: true # \u662F\u5426\u542F\u7528
+    encoding: UTF-8 # \u6A21\u7248\u7F16\u7801
+    excluded-view-names: # \u5E94\u8BE5\u4ECE\u89E3\u6790\u4E2D\u6392\u9664\u7684\u89C6\u56FE\u540D\u79F0\u5217\u8868\uFF08\u7528\u9017\u53F7\u5206\u9694\uFF09
+    mode: HTML # \u6A21\u7248\u6A21\u5F0F
+    prefix: classpath:/templates/ # \u6A21\u7248\u5B58\u653E\u8DEF\u5F84
+    suffix: .html # \u6A21\u7248\u540E\u7F00
+server:
+  port: 9090
